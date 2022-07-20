@@ -31,9 +31,13 @@ body {
 .header-color{
     color: #2196F3;
 }
-.header-link-menu, {
+.header-link-menu {
     margin-right: 50px;
     }
+
+.header-list .link:last-child{
+margin-right: 0px;
+}
 
 
 .header-link {
