@@ -18,15 +18,23 @@ body {
 .header {
     background-color: ;
 }
+.header-nav {
+    display: flex;
+}
 
 
 .header-list {
+    display: flex;
     list-style: none;
 
 }
 .header-color{
     color: #2196F3;
 }
+.header-link-menu, {
+    margin-right: 50px;
+    }
+
 
 .header-link {
     text-decoration: none;
