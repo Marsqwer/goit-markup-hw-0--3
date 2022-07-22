@@ -2,6 +2,7 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 .header-logo {
+    margin-left: 215px;
     text-decoration: none;
     font-family: 'Raleway';
     font-weight: 700;
@@ -18,12 +19,16 @@ body {
 .header {
     background-color: ;
 }
-.header-nav {
+.main-nav {
     display: flex;
+    align-items: center;
+   
 }
 
 
+
 .header-list {
+    margin-left: 100px;
     display: flex;
     list-style: none;
 
@@ -35,19 +40,21 @@ body {
     margin-right: 50px;
     }
 
-.header-list .link:last-child{
+.header-list .header-link-menu:last-child{
 margin-right: 0px;
 }
 
 
 .header-link {
     text-decoration: none;
-
+     display: block;
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    padding-top: 37px;
+    padding-bottom: 27px;
 
     color: #212121;
 }
@@ -58,11 +65,30 @@ margin-right: 0px;
     color: #2196F3;
 }
 
+.header-contact {
+    margin-left: auto;
+    list-style: none;
+    display: flex;
+}
+
+.header-contact-link {
+    margin-right: 50px;
+}
+.header-contact .header-contact-link:last-child{
+margin-right: 0px;
+}
+
+.header-mal {}
+
+.header-tel {}
+
 
 
 
 
 .header-mal {
+    padding-top: 32px;
+    padding-bottom: 32px;
     text-decoration: none;
     font-family: 'Roboto';
     font-weight: 500;
@@ -74,11 +100,13 @@ margin-right: 0px;
 }
 .header-mal:hover,
 .header-mal:focus {
-    background-color: #2196F3;
-    color: white;
+    
+    color: #2196F3;
 }
 
 .header-tel {
+    padding-top: 32px;
+        padding-bottom: 32px;
     text-decoration: none;
     font-family: 'Roboto';
     font-weight: 500;
@@ -90,15 +118,32 @@ margin-right: 0px;
 }
 .header-tel:hover,
 .header-tel:focus {
-    background-color: #2196F3;
-    color: white;
+    
+    color: #2196F3;
 }
+.header-item-kop {
+padding-bottom: 34px;
+}
+
+.header-list {
+    
+justify-content: center;
+ display: flex;
+}
+.header-item-kop {
+ margin-right: 8px;
+}
+.header-list .header-item-kop:last-child {
+margin-right: 0px;
+}
+
 .link-btn{
+    
     font-family: 'Roboto';
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
-        line-height: 26px;
+        line-height: 1.62;
         /* identical to box height, or 162% */
     
         text-align: center;
@@ -108,15 +153,27 @@ margin-right: 0px;
 }
 .link-btn:hover,
 .link-btn:focus {
-    background-color: #2196F3;
-    color: white;
+    
+    color: #2196F3;
 }
 .heder-img{
     color: white;
 }
 .section-list {
-    list-style: none
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+
 }
+
+.section-list {
+    width: 1230px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 .section-title {
     font-family: 'Roboto';
@@ -131,9 +188,18 @@ margin-right: 0px;
         color: #212121;
 }
 
+
+
+
 .section-item {
-    
+   
+    margin-right: 30px;
+    margin-bottom: 30px;
 }
+
+
+
+
 
 .section-text {
     font-family: 'Roboto';
