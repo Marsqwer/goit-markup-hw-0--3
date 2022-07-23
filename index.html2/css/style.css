@@ -121,7 +121,9 @@ font-weight: 500;
 }
 
 .header-item {
-align-content: center;
+    
+justify-content:center
+display: block;
 background-color: #757575;
 }
 
@@ -141,8 +143,11 @@ font-family: 'Roboto';
 }
 
 .link-btn { 
-    
-    
+    margin: 30px auto 0;
+    border-radius: 4px;
+    padding: 10px 32px;
+    box-sizing: border-box;
+    display: block;
     font-family: 'Roboto';
     font-weight: 700;
         font-size: 16px;
