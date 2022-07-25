@@ -1,9 +1,9 @@
-body {
-    font-family: "Open Sans", sans-serif;
+.body {
+    font-family: "Open Sans", "Raleway", "Roboto";
 }
 
 .header-logo {
-    margin-left: 215px;
+  
     text-decoration: none;
     font-family: 'Raleway';
     font-weight: 700;
@@ -18,8 +18,7 @@ body {
 }
 
 .header-nav {
-    display: flex;
-    align-items: center;
+    
 }
 
 header {
@@ -27,40 +26,26 @@ header {
 }
 
 .header-contact {
-    margin-left: auto;
-    list-style: none;
-    display: flex;
+list-style: none;
 
 }
 
 .header-link-menu {
-    display: block;
-    padding-top: 37;
-    padding-bottom: 27;
-    margin-right: 50px;
+
 }
 
 
 .header-list {
-    display: flex;
-    margin-left: 100px;
+
     list-style: none;
 
 }
 
-.header-link :last-child {
-    margin-right: 0;
-}
+
 
 .header-link {
-    display: block;
-    padding-top: 37;
-    padding-bottom: 27;
-    margin-right: 50px;
-
-    text-decoration: none;
-
-    font-family: 'Roboto';
+ text-decoration: none;
+font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -80,16 +65,13 @@ header {
 }
 
 .header-link-mal {
-    margin-left: 50px;
+
 }
 
-.header-list .header-link-mal:last-child {
-    margin-right: 0px;
-}
+
 
 .header-mal {
-    padding-top: 32px;
-    padding-bottom: 32px;
+
     text-decoration: none;
     font-family: 'Roboto';
     font-weight: 500;
@@ -108,8 +90,7 @@ header {
 }
 
 .header-tel {
-    padding-top: 32px;
-    padding-bottom: 32px;
+
     text-decoration: none;
     font-family: 'Roboto';
     font-weight: 500;
@@ -126,29 +107,24 @@ header {
     color: #2196F3;
 }
 
-.header-item-kop {
-    padding-bottom: 34px;
+.header-item {
+    list-style: none;
 }
 
 .header-list {
-    padding-top: 45px;
-        padding-bottom: 30px;
 
-    justify-content: center;
-    display: flex;
 }
 
 .header-item-kop {
-    margin-right: 8px;
+
 }
 
 .header-list .header-item-kop:last-child {
-    margin-right: 0px;
+
 }
 
 .link-btn {
-    justify-content: center;
-    margin-right: 8px;
+
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -175,15 +151,7 @@ header {
 
 
 .section-list {
-
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    width: 1230px;
-    padding-left: 30px;
-    padding-right: 30px;
-    margin-left: auto;
-    margin-right: auto;
+list-style: none;
 }
 
 
@@ -205,8 +173,6 @@ header {
 
 .section-item {
 
-    margin-right: 30px;
-    margin-bottom: 30px;
 }
 
 
